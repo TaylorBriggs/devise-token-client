@@ -10,11 +10,22 @@ module.exports = function(config) {
       }
     },
 
-    files: [],
+    files: [
+      'test/auth_test.js'
+    ],
 
     exclude: [],
 
-    preprocessors: {},
+    preprocessors: {
+      'test/auth_test.js': ['webpack']
+    },
+
+    webpack: {
+    },
+
+    webpackMiddleware: {
+      stats: 'errors-only'
+    },
 
     reporters: ['dots'],
 
