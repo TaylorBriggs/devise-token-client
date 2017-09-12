@@ -1,11 +1,11 @@
 'use strict';
 
 (function() {
-  const AUTH_TOKEN = 'authToken';
-  const AUTH_FIELDS = ['access-token', 'client', 'expiry', 'uid'];
-  const STORAGE_ERR = 'Storage must implement `getItem`, `setItem`, and `removeItem`';
+  var AUTH_TOKEN = 'authToken';
+  var AUTH_FIELDS = ['access-token', 'client', 'expiry', 'uid'];
+  var STORAGE_ERR = 'Storage must implement `getItem`, `setItem`, and `removeItem`';
 
-  let storage = window.localStorage;
+  var storage = window.localStorage;
 
   function isFunction(maybeFunc) {
     return typeof maybeFunc === 'function';
@@ -16,7 +16,7 @@
   }
 
   function getAuth() {
-    const auth = storage.getItem(AUTH_TOKEN);
+    var auth = storage.getItem(AUTH_TOKEN);
 
     if (auth) return JSON.parse(auth);
 
@@ -32,9 +32,9 @@
   }
 
   function isSignedIn() {
-    const auth = getAuth();
-    const token = auth['access-token'];
-    const expiryInMs = parseInt(auth.expiry, 10) * 1000;
+    var auth = getAuth();
+    var token = auth['access-token'];
+    var expiryInMs = parseInt(auth.expiry, 10) * 1000;
 
     return !!(token && expiryInMs && Date.now() < expiryInMs);
   }
