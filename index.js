@@ -11,8 +11,14 @@
     return typeof maybeFunc === 'function';
   }
 
-  function isValidStorage({ getItem, setItem, removeItem }) {
-    return isFunction(getItem) && isFunction(setItem) && isFunction(removeItem);
+  function isValidStorage(customStorage) {
+    customStorage = customStorage || {};
+
+    return (
+      isFunction(customStorage.getItem) &&
+      isFunction(customStorage.setItem) &&
+      isFunction(customStorage.removeItem)
+    );
   }
 
   function getAuth() {
