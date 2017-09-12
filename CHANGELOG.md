@@ -1,5 +1,12 @@
 # Change Log
 
+## [v0.1.2](https://github.com/we-are-vrsus/devise-token-client/tree/v0.1.2) (2017-09-12)
+[Full Changelog](https://github.com/we-are-vrsus/devise-token-client/compare/v0.1.1...v0.1.2)
+
+**Merged pull requests:**
+
+- Remove parameter destructuring, it breaks UglifyJs [\#6](https://github.com/we-are-vrsus/devise-token-client/pull/6) ([TaylorBriggs](https://github.com/TaylorBriggs))
+
 ## [v0.1.1](https://github.com/we-are-vrsus/devise-token-client/tree/v0.1.1) (2017-09-12)
 [Full Changelog](https://github.com/we-are-vrsus/devise-token-client/compare/v0.1.0...v0.1.1)
 
