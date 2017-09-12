@@ -1,4 +1,4 @@
-# devise-token-client
+# devise-token-client [![Build Status](https://travis-ci.org/we-are-vrsus/devise-token-client.svg?branch=master)](https://travis-ci.org/we-are-vrsus/devise-token-client)
 
 A standalone JavaScript client for the [devise_token_auth] ruby gem.
 
@@ -57,8 +57,6 @@ included with the next request to the server.
 `devise-token-client` uses `window.localStorage` by default.
 If you want to provide your own storage mechanism, it should implement the
 same methods (and method signatures) as `window.localStorage`.
-
-For example:
 
 ```javascript
 const Auth = require('devise-token-client');
