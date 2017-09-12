@@ -1,6 +1,6 @@
 {
   "name": "devise-token-client",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A standalone JavaScript client for the devise_token_auth ruby gem.",
   "main": "index.js",
   "scripts": {
