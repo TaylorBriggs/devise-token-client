@@ -1,7 +1,16 @@
 # Change Log
 
-## [Unreleased](https://github.com/we-are-vrsus/devise-token-client/tree/HEAD)
+## [v0.1.1](https://github.com/we-are-vrsus/devise-token-client/tree/v0.1.1) (2017-09-12)
+[Full Changelog](https://github.com/we-are-vrsus/devise-token-client/compare/v0.1.0...v0.1.1)
 
+**Merged pull requests:**
+
+- Favor ES5 variables in order to play nice with UglifyJS [\#5](https://github.com/we-are-vrsus/devise-token-client/pull/5) ([TaylorBriggs](https://github.com/TaylorBriggs))
+- Wrap module in an IIFE for Safari [\#4](https://github.com/we-are-vrsus/devise-token-client/pull/4) ([TaylorBriggs](https://github.com/TaylorBriggs))
+- Add npmignore [\#3](https://github.com/we-are-vrsus/devise-token-client/pull/3) ([TaylorBriggs](https://github.com/TaylorBriggs))
+- Add API documentation to README [\#2](https://github.com/we-are-vrsus/devise-token-client/pull/2) ([TaylorBriggs](https://github.com/TaylorBriggs))
+
+## [v0.1.0](https://github.com/we-are-vrsus/devise-token-client/tree/v0.1.0) (2017-09-11)
 **Merged pull requests:**
 
 - 0.1.0 [\#1](https://github.com/we-are-vrsus/devise-token-client/pull/1) ([TaylorBriggs](https://github.com/TaylorBriggs))
