@@ -1,5 +1,12 @@
 # Change Log
 
+## [v0.1.3](https://github.com/we-are-vrsus/devise-token-client/tree/v0.1.3) (2017-09-13)
+[Full Changelog](https://github.com/we-are-vrsus/devise-token-client/compare/v0.1.2...v0.1.3)
+
+**Merged pull requests:**
+
+- Remove arrow function from `parseHeaders` [\#7](https://github.com/we-are-vrsus/devise-token-client/pull/7) ([TaylorBriggs](https://github.com/TaylorBriggs))
+
 ## [v0.1.2](https://github.com/we-are-vrsus/devise-token-client/tree/v0.1.2) (2017-09-12)
 [Full Changelog](https://github.com/we-are-vrsus/devise-token-client/compare/v0.1.1...v0.1.2)
 
