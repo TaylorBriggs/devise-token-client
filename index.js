@@ -30,7 +30,7 @@
   }
 
   function parseHeaders(headers) {
-    return AUTH_FIELDS.reduce((memo, field) => {
+    return AUTH_FIELDS.reduce(function(memo, field) {
       memo[field] = headers.get(field);
 
       return memo;
