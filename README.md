@@ -1,7 +1,9 @@
-# devise-token-client [![Build Status](https://travis-ci.org/we-are-vrsus/devise-token-client.svg?branch=master)](https://travis-ci.org/we-are-vrsus/devise-token-client)
+# devise-token-client
 
 A standalone JavaScript client for the [devise_token_auth] ruby gem.
 
+[![Build Status](https://travis-ci.org/we-are-vrsus/devise-token-client.svg?branch=master)](https://travis-ci.org/we-are-vrsus/devise-token-client)
+[![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/)
 
 ## Installation
 
