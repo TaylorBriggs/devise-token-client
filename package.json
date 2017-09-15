@@ -1,15 +1,16 @@
 {
   "name": "devise-token-client",
-  "version": "0.1.3",
+  "version": "0.0.0-development",
   "description": "A standalone JavaScript client for the devise_token_auth ruby gem.",
   "main": "index.js",
   "scripts": {
     "commit": "git-cz",
-    "test": "karma start"
+    "test": "karma start",
+    "semantic-release": "semantic-release pre && npm publish && semantic-release post"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/we-are-vrsus/devise-token-client.git"
+    "url": "https://github.com/we-are-vrsus/devise-token-client.git"
   },
   "keywords": [
     "devise_token_auth",
@@ -35,7 +36,8 @@
     "mocha": "^3.5.2",
     "sinon": "^3.2.1",
     "sinon-chai": "^2.13.0",
-    "webpack": "^3.5.6"
+    "webpack": "^3.5.6",
+    "semantic-release": "^7.0.2"
   },
   "config": {
     "commitizen": {
