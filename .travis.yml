@@ -1,4 +1,11 @@
 language: node_js
+cache: yarn
+notifications:
+  email: false
 node_js:
   - "node"
-cache: yarn
+after_success:
+  - npm run semantic-release
+branches:
+  except:
+    - /^v\d+\.\d+\.\d+$/
